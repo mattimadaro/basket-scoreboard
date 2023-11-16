@@ -1,0 +1,152 @@
+body {
+    margin: 50px auto;
+    background: black;
+    background-image: url("basketball.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    background: #111111;
+    border: 5px solid white;
+    border-radius: 15px;
+    padding: 20px 0 10px 0;
+}
+
+.score-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+/* Titles */
+.board-title {
+    color: #EEE;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Score */
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    background: #222222;
+    margin: 21px 0 0 0;
+    border-radius: 5px;
+}
+
+.score {
+    width: 117px;
+    height: 110px;
+    background: #080001;
+    color: yellow;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL', sans-serif;           
+    line-height: 127px;   
+    background: #222222;
+ }
+ 
+ 
+ /* Add points buttons */
+ .add-points-btn-set {
+     display: flex;
+     justify-content: space-around;
+     margin: 26px 0 0 0;
+ }
+ 
+ .points-btn {
+     background: none;
+     width: 45px;
+     height: 45px;
+     color: #fff;
+     border-radius: 5px;
+     border: 2px dashed #fff;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     font-family: 'Cursed Timer ULiL', sans-serif;
+     padding-top: 6px;
+}
+
+.special-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 300px;
+    height: 70px;
+    margin: 30px 0 0 0;
+}
+
+
+
+/* Foul Display (clickable) */
+.foul {
+    width: 50px;
+    height: 50px;
+    background: #222222;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL', sans-serif;           
+    line-height: 50px;    
+    cursor: pointer;
+}
+
+/* Perdio Display (clickable) */
+.period {
+    width: 60px;
+    height: 60px;
+    background: #222222;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    color: yellowgreen;
+    font-family: Cursed Timer ULiL;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL', sans-serif;           
+    line-height: 50px;    
+    cursor: pointer;
+}
+
+/* New Game Button */
+
+.new-game {
+    background: transparent;
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    color: #fff;
+    border: 2px dotted #fff;
+    cursor: pointer;
+}
+
+.special-desc {
+    color: #fff;
+    margin: 10px;
+}
